@@ -1,2 +1,18 @@
-# abphm_2025_poster
-This repo hosts the sequencing report for the poster for the Applied Bioinformatics &amp; Public Health Microbiology 2025 conference
+# ABPHM 2025 poster: Rapid identification of bacterial and fungal pathogens and resistance determinants directly from positive blood culture bottles using long-read sequencing
+
+This repo hosts the sequencing report for the poster for the [Applied Bioinformatics &amp; Public Health Microbiology 2025 conference](https://coursesandconferences.wellcomeconnectingscience.org/event/applied-bioinformatics-public-health-microbiology-20250521/)
+
+To view the HTML report, click [here](https://lerminin.github.io/ispb_2024_poster/report.html). To view the PDF poster, click here.
+
+For more information on this project, please contact: nicole.lerminiaux [at] phac-aspc.gc.ca
+
+## Poster abstract
+
+**Rapid identification of bacterial and fungal pathogens and resistance determinants directly from positive blood culture bottles using long-read sequencing**
+
+Lerminiaux, Nicole<sup>1</sup>, Fakharuddin, Ken<sup>1</sup>, Adam, Heather J.<sup>2</sup>, Bharat, Amrita<sup>1</sup>, Golding, George R.<sup>1</sup>, Martin, Irene<sup>1</sup>, Mulvey, Michael<sup>1</sup>, Mataseje, Laura<sup>1</sup>
+
+<sup>1</sup> National Microbiology Lab, Public Health Agency of Canada, Canada  
+<sup>2</sup> Shared Health, Winnipeg, Manitoba, Canada
+
+The gold standard for diagnostics for bloodstream infections (BSI) are blood cultures followed by phenotypic methods for organism identification and antimicrobial susceptibility testing (AST), which can take multiple days. Early pathogen detection and appropriate antimicrobial therapy for BSIs have major impacts on patient survival; early administration of effective antimicrobials reduces mortality, morbidity, cost of treatment, length of hospital stay, and development of antimicrobial resistance (AMR). We aimed to develop laboratory and bioinformatic workflows to rapidly and accurately determine species identity and predict AMR phenotypes from positive blood cultures. We optimized microbial DNA isolation directly from positive blood cultures, performed long-read DNA sequencing using the Oxford Nanopore Technologies MinION, and designed a bioinformatics pipeline to identify bacterial and fungal organisms and AMR. This pipeline outputs a clinician-friendly HTML report summarizing the results. We included 275 eligible positive blood cultures along with 246 corresponding pure culture isolates from the hospital for validation. Within 30 minutes of sequencing, organism identity determined by [sylph](https://github.com/bluenote-1577/sylph) matched 95.9% (236/246) of blood cultures at species level and 97.2% (239/246) at genus level to the gold standard of pure culture isolates identified by MALDI-TOF. Mismatches were likely due to lack of representation of rare microbes with MALDI-TOF or technical errors. We compared bioinformatic AMR prediction for clinically relevant antimicrobials against the gold standard of phenotypic AST and found overall 86.3 % categorical agreement and 15.3 % very major error rate for assembly-based prediction ([StarAMR](https://github.com/phac-nml/staramr)) and 82.8 % categorical agreement and 14.9 % very major error rate for read-based prediction ([KmerResistance](https://bitbucket.org/genomicepidemiology/kmerresistance/src/master/)) after 5 hours of sequencing. From the time blood cultures are flagged as positive to HTML report output, our laboratory and bioinformatic workflow takes approximately 4 hours of wet lab time, 30 minutes of sequencing for species ID, and 5 hours of sequencing for confident AMR prediction. Options exist to further decrease this time depending on number of samples and computational resources available. The analysis pipeline is available here: https://www.github.com/phac-nml/venae. This proof-of-concept project shows that it is possible to reduce the turnaround time for BSI diagnostics from days to hours.
