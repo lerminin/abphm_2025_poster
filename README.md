@@ -2,7 +2,7 @@
 
 This repo hosts the sequencing report for the poster for the [Applied Bioinformatics &amp; Public Health Microbiology 2025 conference](https://coursesandconferences.wellcomeconnectingscience.org/event/applied-bioinformatics-public-health-microbiology-20250521/)
 
-To view the HTML report, click [here](https://lerminin.github.io/abphm_2025_poster/report.html). To view the PDF poster, click here.
+To view the HTML report, click [here](https://lerminin.github.io/abphm_2025_poster/report.html). To view the PDF poster, click [here](https://lerminin.github.io/abphm_2025_poster/ABPHM_2025_poster_Lerminiaux,Nicole.pdf).
 
 For more information on this project, please contact: nicole.lerminiaux [at] phac-aspc.gc.ca
 
